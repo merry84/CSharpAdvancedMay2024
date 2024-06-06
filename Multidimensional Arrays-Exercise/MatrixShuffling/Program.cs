@@ -4,9 +4,9 @@ using System.Numerics;
 using System.Xml.Linq;
 
 int[] size = Console.ReadLine()
-    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-    .Select(int.Parse)
-    .ToArray();
+.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+.Select(int.Parse)
+.ToArray();
 
 int rows = size[0];
 int cols = size[1];
@@ -22,7 +22,8 @@ for (int i = 0; i < rows; i++)
     {
         matrix[i, j] = numbers[j];
     }
-}
+} 
+
 string command;
 while ((command = Console.ReadLine()) != "END")
 {
