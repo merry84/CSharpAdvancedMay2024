@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFightForGondor", "TheFightForGondor\TheFightForGondor.csproj", "{42626ACE-CFFB-4EB0-897F-34D6C4FE794F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warships", "Warships\Warships.csproj", "{FA5AAD9F-7C13-496D-8E52-EF7D15786659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42626ACE-CFFB-4EB0-897F-34D6C4FE794F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42626ACE-CFFB-4EB0-897F-34D6C4FE794F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42626ACE-CFFB-4EB0-897F-34D6C4FE794F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42626ACE-CFFB-4EB0-897F-34D6C4FE794F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5AAD9F-7C13-496D-8E52-EF7D15786659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5AAD9F-7C13-496D-8E52-EF7D15786659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5AAD9F-7C13-496D-8E52-EF7D15786659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5AAD9F-7C13-496D-8E52-EF7D15786659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2033C093-2BDA-40C4-B5A3-B6A00C3CD39D}
+	EndGlobalSection
+EndGlobal

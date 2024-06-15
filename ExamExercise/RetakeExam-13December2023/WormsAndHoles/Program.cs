@@ -38,7 +38,7 @@ namespace WormsAndHoles
                 //Otherwise, you should remove the hole and decrease the value of the worm by 3.
                 holes.Dequeue();
                 worms.Push(worms.Pop() - 3);
-                if(worm < 1)
+                if(worms.Peek() <=0)
                 {
                     worms.Pop();
                 }
@@ -48,7 +48,7 @@ namespace WormsAndHoles
             	If there are no matches print the following:
             o	"There are no matches."
             */
-            if (matchCount > 0)
+            if (matchCount != 0)
             {
                 Console.WriteLine($"Matches: {matchCount}");
             }

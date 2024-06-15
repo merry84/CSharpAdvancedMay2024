@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WormsAndHoles", "WormsAndHoles\WormsAndHoles.csproj", "{37BB8C05-684B-433A-AF18-5A5F2660A5D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WormsAndHoles", "WormsAndHoles\WormsAndHoles.csproj", "{37BB8C05-684B-433A-AF18-5A5F2660A5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGambler", "TheGambler\TheGambler.csproj", "{B183EA32-1DBF-4015-BBFA-7A68684D2929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37BB8C05-684B-433A-AF18-5A5F2660A5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BB8C05-684B-433A-AF18-5A5F2660A5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BB8C05-684B-433A-AF18-5A5F2660A5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B183EA32-1DBF-4015-BBFA-7A68684D2929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B183EA32-1DBF-4015-BBFA-7A68684D2929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B183EA32-1DBF-4015-BBFA-7A68684D2929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B183EA32-1DBF-4015-BBFA-7A68684D2929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
